@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5422042286952208848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5422042286952208854}
+  - component: {fileID: 5422042286952208849}
+  m_Layer: 0
+  m_Name: ObstacleController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5422042286952208854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422042286952208848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5422042286952208849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422042286952208848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30ecaa303fa14f45a434ce837027e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startV3: {x: 0, y: 1.1, z: 101}
+  endV3: {x: 0, y: 1.1, z: -70}
+  obstaclesPF:
+  - {fileID: 1316450717514987385, guid: 84ec40fb3cc644b5386c3d72af4f787a, type: 3}
+  - {fileID: 1145176896430939213, guid: 29641c2d63c3c4f1c8ce3e67fe8a3c0a, type: 3}
+  - {fileID: 5953082901490828108, guid: 110fb779e70964c15a71f2d1cd257f4d, type: 3}
+  - {fileID: 996730920644494890, guid: 1eb53ecfc6a824737bde50bec78424f8, type: 3}
+  - {fileID: 2381184975231566639, guid: 881450e1d9ab44f0dbf14098123d8f54, type: 3}
+  - {fileID: 2017866335855263452, guid: 9bd87b25f08c64790a5f3a4722066c7a, type: 3}
+  obstacles: []
+  obstaclesToRemove: []
+  moveSpeed: -60
+  creationFrequencyTime: 0.8
+  createObstacles: 1
